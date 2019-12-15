@@ -3,18 +3,21 @@ body {
     padding: 0;
 }
 
-ul {
-    margin: 0;
-}
-
-.navbar ul {
+.navbar {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    margin: 0;
     background-color: black;
+    list-style-type: none;
 }
 
 .navbar li {
+    margin: 20px;
     color: white;
-    list-style-type: none;
+    font-size: 20px;
+}
+
+#title {
+    margin-right: auto;
 }

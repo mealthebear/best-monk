@@ -8,8 +8,9 @@ export default class Navbar extends Component {
 
     render() {
         return (
-            <div className="navbar">
-                <ul>
+            <div>
+                <ul className="navbar">
+                    <li id="title">Best Monk</li>
                     <li>About Me</li>
                     <li>Contact</li>
                 </ul>
