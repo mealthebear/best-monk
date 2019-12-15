@@ -13,9 +13,21 @@ body {
 }
 
 .navbar li {
+    height: 100%;
     margin: 20px;
     color: white;
     font-size: 20px;
+    transition: 0.3s;
+}
+
+.navbar li:hover {
+    background-color: #00FF96;
+    color: black;
+    box-shadow: 1px 1px white,
+                2px 2px white,
+                3px 3px white;
+    -webkit-transform: translateX(-3px);
+    transform: translateX(-3px);
 }
 
 #title {
