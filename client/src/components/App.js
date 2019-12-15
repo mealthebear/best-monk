@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Navbar from './Navbar.js';
 
 export default class App extends Component {
     constructor(props) {
@@ -9,7 +10,9 @@ export default class App extends Component {
     render() {
         return (
             <div>
-               We out here rendering the app! 
+                <header>
+                    <Navbar />
+                </header>
             </div>
         )
     }

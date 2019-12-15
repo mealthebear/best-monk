@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+}
+
+.navbar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: black;
+}
+
+.navbar li {
+    color: white;
+    list-style-type: none;
+}

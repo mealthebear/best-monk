@@ -8,8 +8,11 @@ export default class Navbar extends Component {
 
     render() {
         return (
-            <div>
-                
+            <div className="navbar">
+                <ul>
+                    <li>About Me</li>
+                    <li>Contact</li>
+                </ul>
             </div>
         )
     }
