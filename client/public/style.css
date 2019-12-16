@@ -108,7 +108,7 @@ body {
 
 .accolades-container {
     display: grid;
-    grid-template: 19% 27% 27% 27% / 20% 80%;
+    grid-template: 19% 25% 3% 25% 3% 25% / 20% 80%;
     grid-row-gap: 10px;
 }
 
@@ -137,4 +137,14 @@ body {
     display: inline-block;
     font-size: 2vw;
     align-self: center;
+}
+
+.line-1 {
+    grid-area: 3 / 1 / 4 / 3;
+    width: 85%;
+}
+
+.line-2 {
+    grid-area: 5 / 1 / 6 / 3;
+    width: 85%;
 }
