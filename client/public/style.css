@@ -106,21 +106,28 @@ body {
     background-color: #008A50;
 }
 
+.accolades-container {
+    display: grid;
+    grid-template: 19% 27% 27% 27% / 20% 80%;
+}
+
 .accolades-text {
     display: flex;
     justify-content: center;
     font-size: 4vw;
+    grid-area: 1 / 1 / 2 / 3;
 }
 
 .number-circle {
     display: inline-flex;
-    margin-top: 20px;
     margin-left: 20px;
     height: 5vw;
     width: 5vw;
     font-size: 4vw;
     justify-content: center;
+    justify-self: center;
     align-items: center;
+    align-self: center;
     border-radius: 50%;
     background-color: crimson;
 }
@@ -128,5 +135,5 @@ body {
 .accolades-container p {
     display: inline-block;
     font-size: 2vw;
-    margin-left: 20px;
+    align-self: center;
 }
