@@ -80,13 +80,23 @@ body {
 .run-key-container {
     display: flex;
     justify-content: center;
+    transition: 0.3s;
 }
 
 .run-key {
     margin: 25px auto 0px auto;
     background-color: #00FF96;
     font-size: 32px;
-    padding: 10px;
-    border-radius: 10px;
+    padding: 15px;
+    border-radius: 2em;
     cursor: pointer;
+    transition: 0.3s;
+}
+
+.run-key:hover {
+    -webkit-transform: scale(0.98);
+    -ms-transform: scale(0.98);
+    transform: scale(0.98);
+    box-shadow: inset 0 0 10px black;
+    color: white;
 }
