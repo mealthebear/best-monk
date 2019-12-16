@@ -76,10 +76,13 @@ body {
     color: #00A862;
 }
 
+.run-key-container {
+    display: flex;
+    justify-content: center;
+}
+
 .run-key {
-    display: inline-block;
-    position: relative;
-    /* margin: 0 auto; */
+    margin: 0 auto;
     background-color: #00FF96;
     font-size: 32px;
     padding: 10px;
