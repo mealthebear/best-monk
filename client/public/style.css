@@ -109,6 +109,7 @@ body {
 .accolades-container {
     display: grid;
     grid-template: 19% 27% 27% 27% / 20% 80%;
+    grid-row-gap: 10px;
 }
 
 .accolades-text {
@@ -121,8 +122,8 @@ body {
 .number-circle {
     display: inline-flex;
     margin-left: 20px;
-    height: 5vw;
-    width: 5vw;
+    height: 6vw;
+    width: 6vw;
     font-size: 4vw;
     justify-content: center;
     justify-self: center;
