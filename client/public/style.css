@@ -37,3 +37,8 @@ body {
     margin-right: auto;
     font-size: 52px;
 }
+
+.monk-crest {
+    max-width: 100%;
+    height: auto;
+}
