@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Navbar from './Navbar.js';
 import LandingIntro from './LandingIntro.js';
+import RunKeyButton from './RunKeyButton.js';
 
 export default class App extends Component {
     constructor(props) {
@@ -13,8 +14,9 @@ export default class App extends Component {
             <div>
                 <header>
                     <Navbar />
-                    <LandingIntro />
                 </header>
+                <LandingIntro />
+                <RunKeyButton />
             </div>
         )
     }

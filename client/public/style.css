@@ -75,3 +75,13 @@ body {
 .heal {
     color: #00A862;
 }
+
+.run-key {
+    display: inline-block;
+    position: relative;
+    /* margin: 0 auto; */
+    background-color: #00FF96;
+    font-size: 32px;
+    padding: 10px;
+    border-radius: 10px;
+}
