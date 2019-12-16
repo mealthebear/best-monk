@@ -68,10 +68,10 @@ body {
     padding: 0;
 }
 
-/* .hello {
-    flex-grow: 1;
+.question {
+    font-size: 30px;
 }
 
-.peimei {
-    flex-grow: 2;
-} */
+.heal {
+    color: #00A862;
+}
