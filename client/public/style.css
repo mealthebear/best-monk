@@ -105,3 +105,25 @@ body {
 .run-key:active {
     background-color: #008A50;
 }
+
+.accolades-text {
+    display: flex;
+    justify-content: center;
+    font-size: 4vw;
+}
+
+.number-circle {
+    display: inline-flex;
+    height: 5vw;
+    width: 5vw;
+    font-size: 4vw;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: crimson;
+}
+
+.accolades-container p {
+    display: inline-block;
+    font-size: 2vw;
+}
