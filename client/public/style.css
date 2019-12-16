@@ -114,6 +114,8 @@ body {
 
 .number-circle {
     display: inline-flex;
+    margin-top: 20px;
+    margin-left: 20px;
     height: 5vw;
     width: 5vw;
     font-size: 4vw;
@@ -126,4 +128,5 @@ body {
 .accolades-container p {
     display: inline-block;
     font-size: 2vw;
+    margin-left: 20px;
 }
