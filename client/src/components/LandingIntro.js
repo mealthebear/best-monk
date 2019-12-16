@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import RunKeyButton from './RunKeyButton.js';
 
 const LandingIntro = (props) => (
     <div id="landing-container">
@@ -9,6 +10,7 @@ const LandingIntro = (props) => (
             <p className="hello">Hello, I'm</p>
             <p className="peimei">Peimei!</p>
             <p className="question">How can I <span className="heal">heal</span> you today?</p>
+            <RunKeyButton />
         </div>
     </div>
 )
