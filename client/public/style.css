@@ -110,6 +110,7 @@ body {
     display: grid;
     grid-template: 19% 25% 3% 25% 3% 25% / 20% 80%;
     grid-row-gap: 10px;
+    margin-top: 100px;
 }
 
 .accolades-text {
