@@ -9,7 +9,7 @@ body {
     justify-content: flex-end;
     align-items: center;
     margin: 0;
-    background-color: #110c11;
+    background-color: #110C11;
     list-style-type: none;
 }
 
@@ -150,4 +150,14 @@ body {
 .line-2 {
     grid-area: 5 / 1 / 6 / 3;
     width: 85%;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-size: 2vw;
+    padding: 10px;
+    background-color: #110C11;
+    color: #61DAFB;
 }
