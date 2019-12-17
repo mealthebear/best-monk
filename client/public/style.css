@@ -86,7 +86,7 @@ body {
 .run-key {
     margin: 25px auto 0px auto;
     background-color: #00FF96;
-    font-size: 32px;
+    font-size: 3vw;
     padding: 15px;
     border-radius: 2em;
     cursor: pointer;
@@ -116,6 +116,7 @@ body {
     display: flex;
     justify-content: center;
     font-size: 4vw;
+    text-decoration: underline;
     grid-area: 1 / 1 / 2 / 3;
 }
 
