@@ -18,7 +18,9 @@ export default class App extends Component {
                 </header>
                 <LandingIntro />
                 <Accolades />
-                <Footer />
+                <footer>
+                    <Footer />
+                </footer>
             </div>
         )
     }
