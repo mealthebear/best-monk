@@ -135,17 +135,29 @@ body {
     border-radius: 50%;
 }
 
-.nc1 {
+.nc-1 {
     background: rgb(2, 0, 36);
     background: linear-gradient(to bottom right, #00d2ff 0%, #3a47d5 100%);
 }
 
-.nc2 {
+.nc-2 {
     background: linear-gradient(to bottom right, #f8ff00 0%, #3ad59f 100%);
 }
 
-.nc3 {
+.nc-3 {
     background: linear-gradient(90deg, #fcff9e 0%, #c67700 100%);
+}
+
+.achieve-1 {
+    color: #3542D4;
+}
+
+.achieve-2 {
+    color: #18A57B;
+}
+
+.achieve-3 {
+    color: #C67700;
 }
 
 .accolades-container p {
