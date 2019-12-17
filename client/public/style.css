@@ -18,7 +18,7 @@ body {
     margin: 5px 20px 7px 0px;
     padding: 5px;
     color: white;
-    font-size: 26px;
+    font-size: 2vw;
     transition: 0.3s;
     cursor: pointer;
 }
@@ -35,7 +35,7 @@ body {
 
 #title {
     margin-right: auto;
-    font-size: 52px;
+    font-size: 5vw;
 }
 
 #landing-container {
