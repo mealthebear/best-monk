@@ -169,11 +169,13 @@ body {
 .line-1 {
     grid-area: 3 / 1 / 4 / 3;
     width: 85%;
+    align-self: center;
 }
 
 .line-2 {
     grid-area: 5 / 1 / 6 / 3;
     width: 85%;
+    align-self: center;
 }
 
 .footer {
