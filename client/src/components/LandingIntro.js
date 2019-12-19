@@ -4,7 +4,7 @@ import RunKeyButton from './RunKeyButton.js';
 const LandingIntro = (props) => (
     <div id="landing-container">
         <div className="crest-container">
-            <img src="https://www.mistyteahouse.com/wp-content/uploads/2015/12/Monk-Crest-Vector.png?w=640" alt="Monk Crest" className="monk-crest"/>
+            <img src="https://i.ibb.co/3fs5W6W/monkcrest.png" alt="Monk Crest" className="monk-crest"/>
         </div>
         <div className="intro-container">
             <p className="hello">Hello, I'm</p>
