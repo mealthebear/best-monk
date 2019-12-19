@@ -195,3 +195,10 @@ body {
     background-color: #110C11;
     color: #61DAFB;
 }
+
+#about-me {
+    margin: 0 auto;
+    max-width: 70%;
+    font-size: 4vw;
+    font-family: 'Source Sans Pro', 'Arial', sans-serif;
+}
