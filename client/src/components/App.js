@@ -4,6 +4,7 @@ import LandingIntro from './LandingIntro.js';
 import Accolades from './Accolades.js';
 import Footer from './Footer.js';
 import About from './aboutme/About.js';
+import Contact from './contact/Contact.js';
 
 export default class App extends Component {
     constructor(props) {
@@ -27,21 +28,28 @@ export default class App extends Component {
             <div>
                 {this.state.page === 'home' ? 
                 <div>
-                <header>
-                    <Navbar pageNavi={this.pageNavigator}/>
-                </header>
-                <LandingIntro />
-                <Accolades />
-                <footer>
-                    <Footer />
-                </footer>
+                    <header>
+                        <Navbar pageNavi={this.pageNavigator}/>
+                    </header>
+                    <LandingIntro />
+                    <Accolades />
+                    <footer>
+                        <Footer />
+                    </footer>
                 </div>
                 : this.state.page === 'about' ? 
                 <div>
-                <header>
-                    <Navbar pageNavi={this.pageNavigator}/>
-                </header>
-                <About />
+                    <header>
+                        <Navbar pageNavi={this.pageNavigator}/>
+                    </header>
+                    <About />
+                </div> 
+                : this.state.page === 'contact' ?
+                <div>
+                    <header>
+                        <Navbar pageNavi={this.pageNavigator}/>
+                    </header>
+                    <Contact />
                 </div> : null}
             </div>
         )
