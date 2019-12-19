@@ -209,3 +209,13 @@ body {
     font-size: 4vw;
     font-family: 'Source Sans Pro', 'Arial', sans-serif;
 }
+
+.red {
+    text-decoration: underline;
+    text-decoration-color: #ff6961;
+}
+
+.green {
+    text-decoration: underline;
+    text-decoration-color: #77dd77;
+}
