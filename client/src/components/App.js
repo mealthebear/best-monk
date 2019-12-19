@@ -42,9 +42,6 @@ export default class App extends Component {
                     <Navbar pageNavi={this.pageNavigator}/>
                 </header>
                 <About />
-                <footer>
-                    <Footer />
-                </footer>
                 </div> : null}
             </div>
         )
