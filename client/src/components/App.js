@@ -8,14 +8,25 @@ import About from './aboutme/About.js';
 export default class App extends Component {
     constructor(props) {
         super(props)
-        this.state = {}
+        this.state = {
+            page: 'home'
+        }
+        this.pageNavigator = this.pageNavigator.bind(this);
     }
+
+    pageNavigator(e) {
+        let { nodeValue } = e.target.attributes['0'];
+        this.setState({
+            page: nodeValue
+        })
+    }
+
 
     render() {
         return (
             <div>
                 <header>
-                    <Navbar />
+                    <Navbar pageNavi={this.pageNavigator}/>
                 </header>
                 <LandingIntro />
                 <Accolades />

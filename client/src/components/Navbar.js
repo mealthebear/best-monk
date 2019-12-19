@@ -11,7 +11,7 @@ export default class Navbar extends Component {
             <div>
                 <ul className="navbar">
                     <li id="title">Best Monk</li>
-                    <li>About Me</li>
+                    <li value="about" onClick={this.props.pageNavi}>About Me</li>
                     <li>Contact</li>
                 </ul>
             </div>
