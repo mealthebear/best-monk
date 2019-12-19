@@ -10,9 +10,9 @@ export default class Navbar extends Component {
         return (
             <div>
                 <ul className="navbar">
-                    <li id="title">Best Monk</li>
+                    <li value="home" id="title">Best Monk</li>
                     <li value="about" onClick={this.props.pageNavi}>About Me</li>
-                    <li>Contact</li>
+                    <li value="contact">Contact</li>
                 </ul>
             </div>
         )
