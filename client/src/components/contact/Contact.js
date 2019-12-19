@@ -9,7 +9,7 @@ export default class Contact extends Component {
     render() {
         return (
             <div id="contact">
-                <p>Aw shucks! It looks like I'm all booked for the 
+                <p>Aw, shucks! It looks like I'm all booked for the 
                     <span> </span>
                     <span className="red">H</span>
                     <span className="red">o</span>
