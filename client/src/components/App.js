@@ -3,6 +3,7 @@ import Navbar from './Navbar.js';
 import LandingIntro from './LandingIntro.js';
 import Accolades from './Accolades.js';
 import Footer from './Footer.js';
+import About from './aboutme/About.js';
 
 export default class App extends Component {
     constructor(props) {
