@@ -25,6 +25,8 @@ export default class App extends Component {
     render() {
         return (
             <div>
+                {this.state.page === 'home' ? 
+                <div>
                 <header>
                     <Navbar pageNavi={this.pageNavigator}/>
                 </header>
@@ -33,6 +35,17 @@ export default class App extends Component {
                 <footer>
                     <Footer />
                 </footer>
+                </div>
+                : this.state.page === 'about' ? 
+                <div>
+                <header>
+                    <Navbar pageNavi={this.pageNavigator}/>
+                </header>
+                <About />
+                <footer>
+                    <Footer />
+                </footer>
+                </div> : null}
             </div>
         )
     }
