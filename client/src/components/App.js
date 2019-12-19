@@ -31,7 +31,7 @@ export default class App extends Component {
                     <header>
                         <Navbar pageNavi={this.pageNavigator}/>
                     </header>
-                    <LandingIntro />
+                    <LandingIntro pageNavi={this.pageNavigator}/>
                     <Accolades />
                     <footer>
                         <Footer />

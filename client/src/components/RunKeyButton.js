@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 const RunKeyButton = (props) => (
     <div className="run-key-container">
-        <div className="run-key">Wanna Run A Key?</div>
+        <div value="contact" className="run-key" onClick={props.pageNavi}>Wanna Run A Key?</div>
     </div>
 )
 
