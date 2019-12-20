@@ -105,3 +105,6 @@ dist
 
 # Webpack bundle file
 client/public/bundle.js
+
+# Database index file
+database/index.js
