@@ -1,7 +1,7 @@
 const db = require('./index.js');
 const Sequelize = require('sequelize');
 
-const User = db.define('user', {
+const Player = db.define('player', {
     charName: {
         type: Sequelize.STRING,
         allowNull: false
@@ -20,6 +20,6 @@ const User = db.define('user', {
     timestamps: false
 });
 
-User.sync();
+Player.sync();
 
-module.exports = User;
+module.exports = Player;

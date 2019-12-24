@@ -1,11 +1,11 @@
-const User = require('./model.js');
+const Player = require('./model.js');
 
 const getAllUsers = () => {
-    return User.findAll();
+    return Player.findAll();
 }
 
 const addUser = (obj) => {
-    return User.create(obj)
+    return Player.create(obj)
 }
 
 // Update user
