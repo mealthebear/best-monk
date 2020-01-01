@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import FullyBooked from './FullyBooked.js';
+import KeyForm from './KeyForm.js';
 
 export default class Contact extends Component {
     constructor(props) {
@@ -10,7 +11,8 @@ export default class Contact extends Component {
     render() {
         return (
             <div id="contact">
-                <FullyBooked />
+                {/* <FullyBooked /> */}
+                <KeyForm />
             </div>
         )
     }
