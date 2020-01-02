@@ -5,10 +5,7 @@ const getAllController = () => {
 }
 
 const addController = (res, req) => {
-    let { body } = req;
-    console.log('This is the Request **********', req);
-    console.log('This is the body ****** body **** body***', body);
-    console.log(req.body);
+    let { body } = req.req; // Investigate further why req.req
 }
 
 module.exports = {
