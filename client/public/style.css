@@ -224,6 +224,7 @@ body {
 #keyform {
     display: grid;
     grid-template: repeat(5, 1fr) / 50% 50%;
+    grid-row-gap: 1vw;
     justify-items: start;
     align-items: center;
 }
@@ -246,4 +247,10 @@ body {
     background-color: #4CAF50;
     color: white;
     cursor: pointer;
+    transition: 0.3s;
+}
+
+.key-submit:hover {
+    background-color: #00D17A;
+    color: black;
 }
