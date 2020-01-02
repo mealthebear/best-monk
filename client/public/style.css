@@ -234,6 +234,8 @@ body {
     width: 15vw;
     margin-bottom: 10px;
     text-indent: 0.5vw;
+    font-size: 1.5vw;
+    font-family: 'Lato', 'Arial', sans-serif;
     border: 1px solid #CCC;
     border-radius: 5px;
 }
@@ -245,6 +247,8 @@ body {
     margin-top: 10px;
     height: 3vw;
     width: 15vw;
+    font-size: 1.5vw;
+    font-family: 'Lato', 'Arial', sans-serif;
     background-color: #4CAF50;
     color: white;
     cursor: pointer;
