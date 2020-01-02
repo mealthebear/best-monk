@@ -221,18 +221,16 @@ body {
     text-decoration-color: #77dd77;
 }
 
-#keyform label {
-    display: block;
-}
-
-#level {
-    margin-bottom: 20px;
+#keyform {
+    display: grid;
+    grid-template: repeat(5, 1fr) / 50% 50%;
+    justify-items: start;
+    align-items: center;
 }
 
 .key-input {
     height: 2vw;
     width: 15vw;
-    margin-bottom: 10px;
     text-indent: 0.5vw;
     font-size: 1.5vw;
     font-family: 'Lato', 'Arial', sans-serif;
@@ -241,10 +239,6 @@ body {
 }
 
 .key-submit {
-    display: block;
-    margin: 0 auto;
-    margin-bottom: 20px;
-    margin-top: 10px;
     height: 3vw;
     width: 15vw;
     font-size: 1.5vw;

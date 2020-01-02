@@ -11,7 +11,9 @@ const KeyForm = (props) => (
             <input className="key-input" type="text" name="dungeon" onChange={props.onChange} />
             <label>Level</label>
             <input id="level" className="key-input" type="number" name="level" onChange={props.onChange} />
-            <input className="key-submit" type="submit" value="Submit" />
+            {/* <input className="key-submit" type="submit" value="Submit" /> */}
+            <div></div>
+            <button className="key-submit">Submit</button>
         </form>
     </div>
 )
