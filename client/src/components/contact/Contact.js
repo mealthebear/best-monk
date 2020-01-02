@@ -24,7 +24,8 @@ export default class Contact extends Component {
         })
     }
 
-    handleSubmit() {
+    handleSubmit(e) {
+        e.preventDefault();
         this.postUser();
     }
 
@@ -33,7 +34,7 @@ export default class Contact extends Component {
             charName: this.state.charName,
             realm: this.state.realm,
             dungeon: this.state.dungeon,
-            level: this.state.level
+            level: Number(this.state.level)
         })
         .then((response) => {
             console.log(response)
@@ -47,7 +48,7 @@ export default class Contact extends Component {
         return (
             <div id="contact">
                 {/* <FullyBooked /> */}
-                <KeyForm onChange={this.handleChange} />
+                <KeyForm onChange={this.handleChange} onSubmit={this.handleSubmit} />
             </div>
         )
     }

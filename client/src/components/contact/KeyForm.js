@@ -2,7 +2,7 @@ import React from 'react';
 
 const KeyForm = (props) => (
     <div>
-        <form id="keyform">
+        <form id="keyform" onSubmit={props.onSubmit}>
             <label>Character Name</label>
             <input className="key-input" type="text" name="charName" onChange={props.onChange} />
             <label>Realm</label>
