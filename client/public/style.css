@@ -225,9 +225,14 @@ body {
     display: block;
 }
 
-#keyform input {
+.key-input {
     height: 2vw;
     width: 15vw;
     margin-bottom: 10px;
     text-indent: 0.5vw;
+}
+
+.key-submit {
+    display: block;
+    margin: 0 auto;
 }

@@ -4,13 +4,14 @@ const KeyForm = (props) => (
     <div>
         <form id="keyform">
             <label>Character Name</label>
-            <input type="text" name="charname" />
+            <input className="key-input" type="text" name="charname" />
             <label>Realm</label>
-            <input type="text" name="realm" />
+            <input className="key-input" type="text" name="realm" />
             <label>Dungeon</label>
-            <input type="text" name="dungeon" />
+            <input className="key-input" type="text" name="dungeon" />
             <label>Level</label>
-            <input type="number" name="dungeon" />
+            <input className="key-input" type="number" name="dungeon" />
+            <input className="key-submit" type="submit" value="Submit" />
         </form>
     </div>
 )
