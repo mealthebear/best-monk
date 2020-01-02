@@ -220,3 +220,13 @@ body {
     text-decoration: underline;
     text-decoration-color: #77dd77;
 }
+
+#keyform label {
+    display: block;
+}
+
+#keyform input {
+    height: 2vw;
+    width: 15vw;
+    margin-bottom: 10px;
+}
