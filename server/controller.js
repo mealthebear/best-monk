@@ -4,8 +4,11 @@ const getAllController = () => {
 
 }
 
-const addController = (res, req) => {
-    let { body } = req.req; // Investigate further why req.req
+const addController = (req, res) => {
+    let { body } = req;
+    addUser(body)
+    .then(() => res.status(201).send('Post successful!'))
+    .catch((err) => res.status(401).send('Unable to post user', err));
 }
 
 module.exports = {
