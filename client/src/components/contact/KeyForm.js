@@ -10,7 +10,7 @@ const KeyForm = (props) => (
             <label>Dungeon</label>
             <input className="key-input" type="text" name="dungeon" />
             <label>Level</label>
-            <input className="key-input" type="number" name="dungeon" />
+            <input id="level" className="key-input" type="number" name="dungeon" />
             <input className="key-submit" type="submit" value="Submit" />
         </form>
     </div>

@@ -225,6 +225,10 @@ body {
     display: block;
 }
 
+#level {
+    margin-bottom: 10px;
+}
+
 .key-input {
     height: 2vw;
     width: 15vw;
@@ -235,4 +239,6 @@ body {
 .key-submit {
     display: block;
     margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
