@@ -204,7 +204,7 @@ body {
 }
 
 #contact {
-    margin: 0 auto;
+    margin: 0 auto 0 45px;
     max-width: 70%;
     font-size: 4vw;
     font-family: 'Source Sans Pro', 'Arial', sans-serif;
