@@ -240,7 +240,7 @@ body {
     border-radius: 5px;
 }
 
-.key-submit {
+#key-submit {
     height: 3vw;
     width: 15vw;
     font-size: 1.5vw;
@@ -251,7 +251,7 @@ body {
     transition: 0.3s;
 }
 
-.key-submit:hover {
+#key-submit:hover {
     background-color: #00D17A;
     color: black;
 }
