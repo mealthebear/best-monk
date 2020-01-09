@@ -12,7 +12,6 @@ const KeyForm = (props) => (
             <label id="level-label">Level</label>
             <input id="level-input" className="key-input" type="number" name="level" required onChange={props.onChange} />
             {/* <input className="key-submit" type="submit" value="Submit" /> */}
-            <div></div>
             <button id="key-submit">Submit</button>
         </form>
     </div>
