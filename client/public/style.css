@@ -230,6 +230,7 @@ body {
 }
 
 .key-input {
+    margin-top: 0.5vw;
     height: 2vw;
     width: 15vw;
     text-indent: 0.5vw;
