@@ -223,7 +223,7 @@ body {
 
 #keyform {
     display: grid;
-    grid-template: repeat(5, 1fr) / 50% 50%;
+    grid-template: repeat(5, 1fr) / 50% 25% 50%;
     grid-row-gap: 1vw;
     justify-items: start;
     align-items: center;
@@ -289,6 +289,13 @@ body {
 
 #level-input {
     grid-area: 4 / 2 / 5 / 3;
+}
+
+#message-div {
+    font-size: 3vw;
+    grid-area: 1 / 3 / 6 / 4;
+    justify-self: end;
+    max-height: 28vw;
 }
 
 /* *** [End] Contact Form Positions *** */
