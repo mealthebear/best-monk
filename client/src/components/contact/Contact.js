@@ -10,7 +10,8 @@ export default class Contact extends Component {
             charName: '',
             realm: '',
             dungeon: '',
-            level: 0
+            level: 0,
+            messageType: ''
         };
 
         this.handleChange = this.handleChange.bind(this);
@@ -26,6 +27,13 @@ export default class Contact extends Component {
 
     handleSubmit(e) {
         e.preventDefault();
+        if (this.state.level < 2) {
+            this.setState({ messageType: 'getReal' })
+            return;
+        } else if (this.state.level < 15) {
+            this.setState({ messageType: 'lowKeys' })
+            return;
+        }
         this.postUser();
     }
 
@@ -37,10 +45,12 @@ export default class Contact extends Component {
             level: Number(this.state.level)
         })
         .then((response) => {
-            console.log(response)
+            this.setState({ messageType: 'success' });
+            console.log(response);
         })
         .catch((error) => {
-            console.log(error)
+            this.setState({ messageType: 'error' });
+            console.log(error);
         })
     }
 
@@ -48,7 +58,7 @@ export default class Contact extends Component {
         return (
             <div id="contact">
                 {/* <FullyBooked /> */}
-                <KeyForm onChange={this.handleChange} onSubmit={this.handleSubmit} />
+                <KeyForm onChange={this.handleChange} onSubmit={this.handleSubmit} message={this.state.messageType} />
             </div>
         )
     }
