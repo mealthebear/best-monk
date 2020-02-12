@@ -16,6 +16,7 @@ const KeyForm = (props) => (
             <div id="message-div">
                 <div id="message-header">Form Message</div>
                 <div id="message-content">{props.message}</div>
+                <div id="message-footer">Close</div>
             </div>
         </form>
     </div>
