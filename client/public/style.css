@@ -304,4 +304,8 @@ body {
     border-bottom: 2px solid #CCC;
 }
 
+#message-content {
+    padding: 10px;
+}
+
 /* *** [End] Contact Form Positions *** */
