@@ -28,10 +28,10 @@ export default class Contact extends Component {
     handleSubmit(e) {
         e.preventDefault();
         if (this.state.level < 2) {
-            this.setState({ messageType: 'getReal' })
+            this.setState({ messageType: 'Get real!' })
             return;
         } else if (this.state.level < 15) {
-            this.setState({ messageType: 'lowKeys' })
+            this.setState({ messageType: 'Woah, slow down there. Sorry to break it to you but I don\'t do low keys anymore' })
             return;
         }
         this.postUser();
@@ -45,11 +45,11 @@ export default class Contact extends Component {
             level: Number(this.state.level)
         })
         .then((response) => {
-            this.setState({ messageType: 'success' });
+            this.setState({ messageType: 'Awesome! Looking forward to running soon.' });
             console.log(response);
         })
         .catch((error) => {
-            this.setState({ messageType: 'error' });
+            this.setState({ messageType: 'Whoops! Looks like something went wrong.' });
             console.log(error);
         })
     }

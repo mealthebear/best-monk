@@ -13,7 +13,7 @@ const KeyForm = (props) => (
             <input id="level-input" className="key-input" type="number" name="level" required onChange={props.onChange} />
             {/* <input className="key-submit" type="submit" value="Submit" /> */}
             <button id="key-submit">Submit</button>
-            <div id="message-div">Hello I take up 5 rows in this grid</div>
+            <div id="message-div">{props.message}</div>
         </form>
     </div>
 )
