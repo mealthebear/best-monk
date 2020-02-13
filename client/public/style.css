@@ -317,8 +317,11 @@ body {
 
 .close-button {
     display: inline-block;
+    width: 7vw;
     padding: 5px;
+    border-radius: 5px;
     background-color: #00FF96;
+    cursor: pointer;
 }
 
 /* *** [End] Contact Form Positions *** */
