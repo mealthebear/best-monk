@@ -11,7 +11,8 @@ export default class Contact extends Component {
             realm: '',
             dungeon: '',
             level: 0,
-            messageType: ''
+            messageType: '',
+            showMessage: false
         };
 
         this.handleChange = this.handleChange.bind(this);
@@ -58,7 +59,7 @@ export default class Contact extends Component {
         return (
             <div id="contact">
                 {/* <FullyBooked /> */}
-                <KeyForm onChange={this.handleChange} onSubmit={this.handleSubmit} message={this.state.messageType} />
+                <KeyForm onChange={this.handleChange} onSubmit={this.handleSubmit} message={this.state.messageType} showMessage={this.state.showMessage}/>
             </div>
         )
     }
