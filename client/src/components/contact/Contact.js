@@ -18,6 +18,7 @@ export default class Contact extends Component {
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
         this.postUser = this.postUser.bind(this);
+        this.closeMessage = this.closeMessage.bind(this);
     }
 
     handleChange(e) {
@@ -55,11 +56,15 @@ export default class Contact extends Component {
         })
     }
 
+    closeMessage() {
+        this.setState({ showMessage: false })
+    }
+
     render() {
         return (
             <div id="contact">
                 {/* <FullyBooked /> */}
-                <KeyForm onChange={this.handleChange} onSubmit={this.handleSubmit} message={this.state.messageType} showMessage={this.state.showMessage}/>
+                <KeyForm onChange={this.handleChange} onSubmit={this.handleSubmit} message={this.state.messageType} showMessage={this.state.showMessage} closeMessage={this.closeMessage}/>
             </div>
         )
     }
