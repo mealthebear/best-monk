@@ -323,6 +323,12 @@ body {
     border-radius: 5px;
     background-color: #00FF96;
     cursor: pointer;
+    transition: 0.3s;
+}
+
+.close-button:hover {
+    background-color: #00D17A;
+    color: white;
 }
 
 /* *** [End] Contact Form Positions *** */
