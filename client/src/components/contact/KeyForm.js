@@ -13,10 +13,10 @@ const KeyForm = (props) => (
             <input id="level-input" className="key-input" type="number" name="level" required onChange={props.onChange} />
             {/* <input className="key-submit" type="submit" value="Submit" /> */}
             <button id="key-submit">Submit</button>
-            {(props.showMessage === true) ? <div id="message-div" onClick={props.closeMessage}>
+            {(props.showMessage === true) ? <div id="message-div">
                 <div id="message-header">Form Message</div>
                 <div id="message-content">{props.message}</div>
-                <div id="message-footer"><div className="close-button">Close</div></div>
+                <div id="message-footer"><div className="close-button" onClick={props.closeMessage}>Close</div></div>
             </div> : null}
         </form>
     </div>
