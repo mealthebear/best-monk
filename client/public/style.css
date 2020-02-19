@@ -299,7 +299,7 @@ body {
     /* max-height: 28vw;   Makes footer leave the message box */   
     box-shadow: 0rem 0.5rem 1rem rgba(0, 0, 0, 0.2);
     animation-name: slide-up;
-    animation-duration: 2s;
+    animation-duration: 0.5s;
 }
 
 @keyframes slide-up {
