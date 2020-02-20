@@ -8,8 +8,8 @@ export default class PlayerQueue extends Component {
 
     render() {
         return (
-            <div>
-                This is the player queue
+            <div id="queue">
+                Show the Queue
             </div>
         )
     }
