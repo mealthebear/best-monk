@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import FullyBooked from './FullyBooked.js';
 import KeyForm from './KeyForm.js';
+import PlayerQueue from './PlayerQueue.js';
 import Axios from 'axios';
 
 export default class Contact extends Component {
@@ -62,9 +63,12 @@ export default class Contact extends Component {
 
     render() {
         return (
-            <div id="contact">
-                {/* <FullyBooked /> */}
-                <KeyForm onChange={this.handleChange} onSubmit={this.handleSubmit} message={this.state.messageType} showMessage={this.state.showMessage} closeMessage={this.closeMessage}/>
+            <div>
+                <div id="contact">
+                    {/* <FullyBooked /> */}
+                    <KeyForm onChange={this.handleChange} onSubmit={this.handleSubmit} message={this.state.messageType} showMessage={this.state.showMessage} closeMessage={this.closeMessage}/>
+                </div>
+                <PlayerQueue />
             </div>
         )
     }
