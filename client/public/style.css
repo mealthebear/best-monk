@@ -346,6 +346,12 @@ body {
     color: white;
 }
 
+#queue-section {
+    padding-top: 3vw;
+    background-color: black;
+    height: 500px;
+}
+
 #queue {
     margin: 0 auto;
     padding: 10px;
