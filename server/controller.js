@@ -1,7 +1,9 @@
 const { getAllUsers, addUser } = require('../database/dbHelpers.js');
 
-const getAllController = () => {
-
+const getAllController = (req, res) => {
+    getAllUsers()
+    .then((data) => res.status(200).send(data))
+    .catch((err) => res.status(400).send(err));
 }
 
 const addController = (req, res) => {
