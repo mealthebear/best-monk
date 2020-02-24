@@ -370,3 +370,11 @@ body {
     color: black;
     background-color: #00BDFE;
 }
+
+.player-box {
+    margin: 10px auto 0 auto;
+    width: 90%;
+    padding: 5px;
+    background-color: white;
+    border-radius: 5px;
+}
