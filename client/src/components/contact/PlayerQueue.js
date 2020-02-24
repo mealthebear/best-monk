@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PlayerQueueList from './PlayerQueueList.js';
 import Axios from 'axios';
 
 export default class PlayerQueue extends Component {
@@ -26,6 +27,8 @@ export default class PlayerQueue extends Component {
                 <div id="queue" onClick={this.getPlayers}>
                     Show the Queue
                 </div>
+                {/* <p onClick={() => console.log(this.state.players)}>Click me to show players state</p> */}
+                <PlayerQueueList players={this.state.players}/>
             </div>
         )
     }
