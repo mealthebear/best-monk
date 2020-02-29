@@ -380,6 +380,16 @@ body {
     border-radius: 5px;
 }
 
+.player-name {
+    margin: 0 auto;
+    padding: 10px;
+    width: 50%;
+    font-size: 2vw;
+    text-align: center;
+    background-color: tan;
+    border-radius: 5px;
+}
+
 .key-name {
     color: #b048f8;
 }
