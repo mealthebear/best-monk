@@ -34,7 +34,7 @@ export default class Contact extends Component {
             this.setState({ messageType: 'Get real!', showMessage: true })
             return;
         } else if (this.state.level < 15) {
-            this.setState({ messageType: 'Woah, slow down there. Sorry to break it to you but I don\'t do low keys anymore', showMessage: true })
+            this.setState({ messageType: 'Woah, slow down there. Sorry to break it to you, but I don\'t do low keys anymore', showMessage: true })
             return;
         }
         this.postUser();
