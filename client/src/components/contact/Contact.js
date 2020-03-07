@@ -13,6 +13,7 @@ export default class Contact extends Component {
             dungeon: '',
             level: 0,
             messageType: '',
+            loading: false,
             showMessage: false
         };
 
@@ -66,7 +67,7 @@ export default class Contact extends Component {
             <div>
                 <div id="contact">
                     {/* <FullyBooked /> */}
-                    <KeyForm onChange={this.handleChange} onSubmit={this.handleSubmit} message={this.state.messageType} showMessage={this.state.showMessage} closeMessage={this.closeMessage}/>
+                    <KeyForm onChange={this.handleChange} onSubmit={this.handleSubmit} message={this.state.messageType} loading={this.state.loading} showMessage={this.state.showMessage} closeMessage={this.closeMessage}/>
                 </div>
                 <PlayerQueue />
             </div>
