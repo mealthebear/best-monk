@@ -42,6 +42,7 @@ export default class Contact extends Component {
     }
 
     postUser() {
+        this.setState({ loading: true })
         Axios.post('/api/key', {
             charName: this.state.charName,
             realm: this.state.realm,
@@ -49,11 +50,11 @@ export default class Contact extends Component {
             level: Number(this.state.level)
         })
         .then((response) => {
-            this.setState({ messageType: 'Awesome! Looking forward to running soon.', showMessage: true });
+            this.setState({ messageType: 'Awesome! Looking forward to running soon.', showMessage: true, loading: false });
             console.log(response);
         })
         .catch((error) => {
-            this.setState({ messageType: 'Whoops! Looks like something went wrong.', showMessage: true });
+            this.setState({ messageType: 'Whoops! Looks like something went wrong.', showMessage: true, loading: false });
             console.log(error);
         })
     }

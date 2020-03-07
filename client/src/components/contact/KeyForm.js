@@ -13,7 +13,7 @@ const KeyForm = (props) => (
             <input id="level-input" className="key-input" type="number" name="level" required onChange={props.onChange} />
             {/* <input className="key-submit" type="submit" value="Submit" /> */}
             <button id="key-submit">Submit</button>
-            {(props.loading === false) ? <div className="loader"></div> : null}
+            {(props.loading === true) ? <div className="loader"></div> : null}
             {(props.showMessage === true) ? <div id="message-div">
                 <div id="message-header">Form Message</div>
                 <div id="message-content">{props.message}</div>
