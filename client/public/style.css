@@ -400,10 +400,10 @@ body {
 .player-name {
     margin: 10px auto 0 auto;
     padding: 10px;
-    font-size: 2vw;
+    font-size: 4vw;
     text-align: center;
     background-color: tan;
-    border-radius: 5px;
+    border-radius: 5px 5px 0px 0px;
 }
 
 .key-name {
