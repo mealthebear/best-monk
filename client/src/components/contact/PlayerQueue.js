@@ -27,8 +27,10 @@ export default class PlayerQueue extends Component {
                 <div id="queue" onClick={this.getPlayers}>
                     Show the Queue
                 </div>
+                <div className="queue-front">Front of the Line</div>
                 {/* <p onClick={() => console.log(this.state.players)}>Click me to show players state</p> */}
                 <PlayerQueueList players={this.state.players}/>
+                <div className="queue-back">Back of the Line</div>
             </div>
         )
     }
