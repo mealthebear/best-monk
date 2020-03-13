@@ -425,4 +425,10 @@ body {
     background-color: green;
     text-align: center;
     border-radius: 5px;
+    transition: 0.3s;
+}
+
+.queue-front:hover {
+    color: black;
+    background-color: #00FF96;
 }
