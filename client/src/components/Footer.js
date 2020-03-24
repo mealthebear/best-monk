@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 
 const Footer = (props) => (
     <div className="footer">
-        <span>Hip hip, hooray! It's key day!</span> <span>(✿ ♥‿♥) Made With 💙 (✿ ♥‿♥)</span>
+        <span>A free key for you and me</span> <span>(✿ ♥‿♥) Made With 💙 (✿ ♥‿♥)</span>
     </div>
 )
 
